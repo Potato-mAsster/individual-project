@@ -4,15 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <style>
         header{
             background-color: blueviolet;
             height: 70px;
+            display: flex;
+            justify-content: space-between;
+            position: sticky;
+            top: 0;
         }
         header img{
-            width: 3%;
-            margin: 10px;
+            width: 50%;
+            margin-left: 10px;
             position: relative;
             animation: move 1s infinite alternate;
         }
@@ -33,18 +40,22 @@
     </style>
 </head>
 <body style="margin: 0; padding: 0;">
-    <header>
-        <img src="/img/face-removebg-preview.png" alt="">
-        <input type="text" placeholder="searching...">
-        <button>Go</button>
-        <div class="header-profile-text">
-            <h3><a href="">Table</a></h3>
-            <h3><a href="">My hobbies</a></h3>
-            <h3><a href="">Tops</a></h3>
+    <header style="position: sticky;">
+        <div class="animation">
+            <img src="/individual-project/img/face-removebg-preview.png" alt="">
+        </div>
+        <div class="search">
+            <input type="text" placeholder="searching..." class="search-items">
+            <button  class="search-items">Go</button>
+        </div>
+        <div class="header-nav-text">
+            <h4><a href="">music</a></h4>
+            <h4><a href="">manga</a></h4>
+            <h4><a href="">games</a></h4>
         </div>
     </header>
     <main>
-
+        
     </main>
     <footer>
 

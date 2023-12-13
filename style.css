@@ -1,0 +1,48 @@
+body{
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.header-nav-text{
+    display: flex;
+    justify-content: flex-end;
+    width: 35%;
+}
+.header-nav-text h4{
+    margin: 15px;
+    background-color: rgb(185, 185, 185);
+    border-radius: 10px;
+    border: 1px solid rgb(119, 119, 119);
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.animation{
+    width: 12%;
+}
+.search{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.search-items{
+    height: 25px;
+    border-radius: 10px;
+    border: 1px solid rgb(51, 1, 97);
+    margin-left: 5px;
+}
+.search input{
+    width: 80%;
+}
+a{
+    text-decoration: none;
+}
+
+main{
+    background-image: url(/individual-project/img/photo_2023-05-07_22-46-58.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
