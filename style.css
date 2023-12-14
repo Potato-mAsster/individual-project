@@ -244,3 +244,22 @@ tr{
     top: 120px;
     color: #9365ac;
 }
+
+/* manga.html */
+.manga-main{
+    background-image: url(/individual-project/img/manga-html-img.jpg);
+    height: 1300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.welcome-manga-text{
+    color: rgb(0, 0, 0);
+    text-shadow: -1px -1px 0 #700000, 1px -1px 0 #700000, -1px 1px 0 #700000, 1px 1px 0 #700000;
+    margin: 0;
+    margin: auto;
+    padding: 50px;
+    width: 50%;
+    text-align: center;
+    font-size: 25px;
+}
