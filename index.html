@@ -8,41 +8,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Afacad&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <style>
-        header{
-            background-color: rgb(122, 105, 138);
-            height: 70px;
-            display: flex;
-            justify-content: space-between;
-            position: sticky;
-            top: 0;
-        }
-        header img{
-            width: 50%;
-            margin-left: 20px;
-            position: relative;
-            animation: move 1s infinite alternate;
-        }
-        @keyframes move {
-            0% {
-                left: 0;
-                top: 0;
-            }
-            50% {
-                left: 0px;
-                top: 10px;
-            }
-            100%{
-                left: 0px;
-                top: 0px;
-            }
-        }
-    </style>
 </head>
-<body style="margin: 0; padding: 0;">
+<body>
     <header style="position: sticky;">
         <div id="animation">
-            <img src="/individual-project/img/face-removebg-preview.png" alt="">
+            <a href="/individual-project/index.html">
+                <img src="/individual-project/img/face-removebg-preview.png" alt="">
+            </a>
         </div>
         <div class="search">
             <form action="">
@@ -56,7 +28,7 @@
             <h4><a href="/individual-project/games.html">games</a></h4>
         </div>
     </header>
-    <main>
+    <main class="index-main">
         <div class="opacity">
             <div class="welcome-text">
                 <h1>Welcome To My Life ⸜(｡˃ ᵕ ˂ )⸝♡</h1>
@@ -93,7 +65,7 @@
                     </tr>
                     <tr>
                         <td>2005</td>
-                        <td>I was born</td>
+                        <td>My birth day</td>
                     </tr>
                     <tr>
                         <td>2011</td>
@@ -116,9 +88,19 @@
         </div>
     </main>
     <footer>
-        <div class="icons">
-            <img src="/individual-project/img/тг.png" alt="">
-            <img src="/individual-project/img/инста.png" alt="">
+        <div class="contacts">
+            <div class="contact">
+                <div class="img">
+                    <img src="/individual-project/img/тг.png" alt="">
+                </div>
+                <h4><a target="_blank" href="https://t.me/altynaio_o">@altynaio_o</a></h4>
+            </div>
+            <div class="contact">
+                <div class="img">
+                    <img src="/individual-project/img/инста.png" alt="" id="insta">
+                </div>
+                <h4><a target="_blank" href="https://www.instagram.com/altynai10101/">altynai10101</a></h4>
+            </div>
         </div>
     </footer>
 </body>
