@@ -4,6 +4,7 @@ body{
     padding: 0;
 }
 header{
+    z-index: 10;
     background-color: rgb(73, 56, 89);
     height: 70px;
     display: flex;
@@ -258,8 +259,40 @@ tr{
     text-shadow: -1px -1px 0 #700000, 1px -1px 0 #700000, -1px 1px 0 #700000, 1px 1px 0 #700000;
     margin: 0;
     margin: auto;
-    padding: 50px;
+    padding: 40px;
     width: 50%;
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
+}
+.three-images img{
+    width: 200px;
+    border-radius: 70px;
+    border: 2px solid;
+}
+.three-images{
+    position: relative;
+    width: 50%;
+    height: 500px;
+    margin: auto;
+}
+.uzumaki{
+    position: absolute;
+    top: 0; 
+    left: 150px;
+    
+}
+.bastard{
+    position: absolute;
+    top: 170px;
+    left: 30px;
+    z-index: 2;
+}
+.wife{
+    position: absolute;
+    top: 120px;
+    left: 280px;
+}
+
+.about-manga{
+    color: wheat;
 }
