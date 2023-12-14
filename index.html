@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <style>
         header{
-            background-color: blueviolet;
+            background-color: rgb(122, 105, 138);
             height: 70px;
             display: flex;
             justify-content: space-between;
@@ -19,7 +19,7 @@
         }
         header img{
             width: 50%;
-            margin-left: 10px;
+            margin-left: 20px;
             position: relative;
             animation: move 1s infinite alternate;
         }
@@ -41,24 +41,85 @@
 </head>
 <body style="margin: 0; padding: 0;">
     <header style="position: sticky;">
-        <div class="animation">
+        <div id="animation">
             <img src="/individual-project/img/face-removebg-preview.png" alt="">
         </div>
         <div class="search">
-            <input type="text" placeholder="searching..." class="search-items">
-            <button  class="search-items">Go</button>
+            <form action="">
+                <input type="text" placeholder="searching..." class="search-items">
+                <button  class="search-items" id="search-button">Go</button>
+            </form>
         </div>
         <div class="header-nav-text">
-            <h4><a href="">music</a></h4>
-            <h4><a href="">manga</a></h4>
-            <h4><a href="">games</a></h4>
+            <h4><a href="/individual-project/music.html">music</a></h4>
+            <h4><a href="/individual-project/manga.html">manga</a></h4>
+            <h4><a href="/individual-project/games.html">games</a></h4>
         </div>
     </header>
     <main>
-        
+        <div class="opacity">
+            <div class="welcome-text">
+                <h1>Welcome To My Life ⸜(｡˃ ᵕ ˂ )⸝♡</h1>
+            </div>
+            <div class="fun-fact">
+                <h4>Fun facts about me</h4>
+                <ul>
+                    <li>
+                        I really love ramen. I can eat the hottest ramen after drinking all the soup, heh.
+                    </li>
+                    <li>
+                        I hate seafood. I can even puke from the smell(
+                    </li>
+                </ul>
+            </div>
+            <div class="about-me">
+                <div id="my-photo">
+                    <img src="/individual-project/img/я в шапке.jpg" alt="" class="my-photo">            
+                </div>
+                <div id="about-me-paragaph">
+                    <p>
+                        Hello! my name is Altynay, nice to meet you ( ´ ▽ ` ). <br> I was born in the city of Almaty, Ozhet microdistrict. Now I live in the city center with my aunt and uncle. <br>
+                        I will tell about myself. I love listening to heavy metal, taking long walks, reading manga and watching horror movies(///￣ ￣///). I think I'm a cheerful and positive person, I'm a good student. By the way, I’m studying to become a programmer in college and taking courses in web programming. I'm learning 3D modeling in Blender. <br>
+                        On this site you can see the tops of my favorite songs, manga, etc. <br>
+                        I hope you were interested in learning about this(─‿‿─)
+                    </p>
+                </div>
+            </div>
+            <div class="table">
+                <table border="1">
+                    <tr>
+                        <th>Year</th>
+                        <th>What happened</th>
+                    </tr>
+                    <tr>
+                        <td>2005</td>
+                        <td>I was born</td>
+                    </tr>
+                    <tr>
+                        <td>2011</td>
+                        <td>went to school №156</td>
+                    </tr>
+                    <tr>
+                        <td>2021</td>
+                        <td>graduated from school</td>
+                    </tr>
+                    <tr>
+                        <td>2021</td>
+                        <td>entered to CATEC</td>
+                    </tr>
+                    <tr>
+                        <td>2023</td>
+                        <td>got into the project Kumbel Lub</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
     </main>
     <footer>
-
+        <div class="icons">
+            <img src="/individual-project/img/тг.png" alt="">
+            <img src="/individual-project/img/инста.png" alt="">
+        </div>
     </footer>
 </body>
 </html>
