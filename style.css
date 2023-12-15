@@ -364,3 +364,13 @@ tr{
     border: 2px solid black;
     border-radius: 10px;
 }
+
+
+/* games.html */
+
+.games-main{
+    background-image: url(/individual-project/img/game-back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
