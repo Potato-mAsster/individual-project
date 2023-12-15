@@ -136,6 +136,10 @@ footer{
     background-color: #9365ac;
     display: flex;
     justify-content: center;
+
+}
+footer a{
+    color: black;
 }
 table{
     width: 40%;
@@ -373,4 +377,43 @@ tr{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.game-container img{
+    width: 90%;
+    grid-row: 1/3;
+    grid-column: 1/2;
+    display: flex;
+    align-self: center;
+    margin-left: 10px;
+}
+
+.game-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 50px;
+}
+.game{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 30% 70%;
+    width: 75%;
+    margin: auto;
+    padding: 20px;
+    background-color: #00000097;
+    color: wheat;
+}
+
+.games-footer{
+    background-color: #433b45;
+}
+.games-main h1{
+    padding: 80px;
+    margin: 0;    
+    width: 30%;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+    font-size: 40px;
 }
