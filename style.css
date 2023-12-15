@@ -174,7 +174,6 @@ tr{
 
 .music-main{
     background-image: url(/individual-project/img/забор.jpg);
-    height: 1300px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -204,7 +203,6 @@ tr{
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
-    gap: 30px;
 }
 .genres{
     margin: auto;
@@ -214,6 +212,7 @@ tr{
     color: wheat;
     background-color: #0000005f;
     padding: 30px;
+    margin: 30px;
 }
 .line{
     width: 40%;
@@ -248,21 +247,21 @@ tr{
 
 /* manga.html */
 .manga-main{
-    background-image: url(/individual-project/img/manga-html-img.jpg);
-    height: 1300px;
+    background-image: url(/individual-project/img/street.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding: 50px;
 }
 .welcome-manga-text{
-    color: rgb(0, 0, 0);
+    color: rgba(255, 0, 0, 0.541);
     text-shadow: -1px -1px 0 #700000, 1px -1px 0 #700000, -1px 1px 0 #700000, 1px 1px 0 #700000;
     margin: 0;
     margin: auto;
-    padding: 40px;
+    padding-bottom: 40px;
     width: 50%;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
 }
 .three-images img{
     width: 200px;
@@ -292,7 +291,76 @@ tr{
     top: 120px;
     left: 280px;
 }
-
 .about-manga{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.about-manga ol{
+    background-color: rgba(0, 0, 0, 0.634);
+    padding: 30px;
+    margin: 50px;
     color: wheat;
+    width: 60%;
+}
+.my-comment-about-manga{
+    color: wheat;
+    background-color: #302e5ba4;
+    width: 15%;
+    padding: 10px;
+    margin: 50px;
+    line-height: 1.5;
+}
+.read-now img{
+    width: 20%;
+    padding: 10px;
+    border: 2px solid wheat;
+    border-radius: 10px;
+    margin: 10px;
+}
+.read-now p{
+    order: 2;
+}
+.read-now{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(165, 0, 0, 0.268);
+    color: wheat;
+    padding: 30px;
+    margin: 50px;
+    width: 60%;
+}
+
+.manga-screens img{
+    width:13%;
+    opacity: 0.2;
+    border: 2px solid;
+}
+.manga-screens{
+    height: 160px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+.manga-screens img:hover{
+    opacity: 1;
+    z-index: 9;
+    width: 25%;
+    height: 250px;
+}
+#manga3{
+    height: 200px;
+}
+#manga3 img{
+    width: 16%;
+}
+#manga3 img:hover{
+    width: 50%;
+}
+.my-comment-about-manga a{
+    color: wheat;
+    padding: 20px 50px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
