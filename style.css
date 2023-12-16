@@ -89,7 +89,7 @@ a{
     color: rgb(54, 18, 41);
 }
 .index-main{
-    background-image: url(/individual-project/img/main-img.jpg);
+    background-image: url(https://raw.githubusercontent.com/Potato-mAsster/individual-project/main/img/main-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -184,7 +184,7 @@ footer .img{
 /* music.html */
 
 .music-main{
-    background-image: url(/individual-project/img/забор.jpg);
+    background-image: url(https://raw.githubusercontent.com/Potato-mAsster/individual-project/main/img/%D0%B7%D0%B0%D0%B1%D0%BE%D1%80.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -258,7 +258,7 @@ footer .img{
 
 /* manga.html */
 .manga-main{
-    background-image: url(/individual-project/img/street.jpg);
+    background-image: url(https://raw.githubusercontent.com/Potato-mAsster/individual-project/main/img/street.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -384,7 +384,7 @@ footer .img{
 /* games.html */
 
 .games-main{
-    background-image: url(/individual-project/img/game-back.jpg);
+    background-image: url(https://raw.githubusercontent.com/Potato-mAsster/individual-project/main/img/game-back.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
